@@ -65,12 +65,12 @@
   }
 
 
-/* iPhone */
+/* IPHONE */
 
   .hand {
     background-image: url("img/hand.png");
     position: absolute;
-    right: 450px;
+    right: 320px;
     top: 151px;
     width: 439px;
     height: 507px;
