@@ -67,10 +67,30 @@
 
 /* iPhone */
 
+/*Mozilla targeting*/
+@-moz-document url-prefix() { 
+    .iphone {
+       position: relative;
+       top: -44px;
+    }
+  }
+
+/*Edge targeting*/
+@supports (-ms-ime-align:auto) {
+    .iphone {
+        position: relative;
+        top: -46px;
+     }
+
+     .dot{
+         margin-left: 8px
+     }
+}
+
   .hand {
     background-image: url("img/hand.png");
     position: absolute;
-    right: 320px;
+    right: 350px;
     top: 151px;
     width: 439px;
     height: 507px;
